@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- the header -->
+    <header>
+      <div class="header">
+        <img src="./coffee_masters_logo.png" alt="" />
+        <h1>Coffee Masters</h1>
+      </div>
+    </header>
+    <div class="main-bg">
+      <main>
+        <div class="orders">
+          <section class="items-section sections">
+            <h2>ITEMS</h2>
+            <div class="item">
+              <div class="item-detail">
+                <div class="qty">1x</div>
+                <div class="item-type">Cappuccino</div>
+                <div class="price">$3.35</div>
+              </div>
+              <div class="flavor">Lite foam</div>
+            </div>
+
+            <div class="item">
+              <div class="item-detail">
+                <div class="qty">1x</div>
+                <div class="item-type">Cappuccino</div>
+                <div class="price">$3.85</div>
+              </div>
+              <div class="flavor">Lite Milk</div>
+              <div class="flavor">Double expresso</div>
+            </div>
+
+            <div class="item">
+              <div class="item-detail">
+                <div class="qty">1x</div>
+                <div class="item-type">Croissant</div>
+                <div class="price">$2.45</div>
+              </div>
+              <div class="flavor">Butter</div>
+            </div>
+          </section>
+
+          <div class="name-payment">
+            <div class="name-section sections">
+              <h2>NAME</h2>
+              <form action="" class="order-form">
+                <label for="order-name">Name for order</label>
+                <input type="text" id="order-name" placeholder="Ford Perfect" />
+              </form>
+            </div>
+
+            <div class="payment-section sections">
+              <h2>PAYMENT</h2>
+              <form action="" class="card-details">
+                <label for="card-no">Card number</label>
+                <input type="number" placeholder="1234 5678 9012 3456" />
+              </form>
+              <form action="" class="ccv">
+                <label for="ccv-no">CCV Number</label>
+                <input type="number" placeholder="001" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-details">
+          <div class="subtotal">
+            <div class="sub-title">Subtotal:</div>
+            <div class="sub-amount">$9.65</div>
+          </div>
+          <div class="tax">
+            <div class="tax-title">Tax:</div>
+            <div class="tax-amount">$0.82</div>
+          </div>
+          <div class="total">
+            <div class="total-title">Total:</div>
+            <div class="total-amount">$10.47</div>
+          </div>
+        </div>
+
+        <button class="place-order-btn">Place Order</button>
+      </main>
+    </div>
+  </body>
+</html>
